@@ -1,0 +1,55 @@
+---
+title: 利用 kentcdodds.com 建立自己的網站
+date: 2024-04-02
+description:
+  The difference between React.createElement and calling a function component
+  directly
+categories:
+  -  網站建置
+meta:
+  keywords:
+    - 網站建置
+    - Remix
+bannerCloudinaryId: unsplash/photo-1486312338219-ce68d2c6f44d
+bannerCredit:
+  Photo by [Glenn Carstens-Peters](https://unsplash.com/photos/person-using-macbook-pro-npxXWgQ33ZQ)
+---
+
+## 緣起
+
+最近開始想建立個人部落格，因此先去 Godaddy 註冊了 koshuang.com。在左思右想要使用什麼平台的時候，
+突然想到 Kent C Dodds 他把自己的部落格放到 GitHub 上，並使用 Remix 改寫。所以我也在想，
+如果把他的 Repo Clone 下來，會如何？目前想到幾個優點：
+
+- 可以 Open Source，也許哪天有讀者有興趣，也可以來幫忙修正錯誤 XD
+- 可以趁機學 Remix
+- 可以學 Kent 他怎麼架構一個網站
+
+所以這篇文章是想要紀錄我在 Clone 過程中做了些什麼事，以及心得。所以會以日記的方式來呈現，結構可能會比較鬆散。
+
+## 日記
+
+### 4/3
+
+- Clone repo
+- 設定基礎環境: `npm run setup`，他會執行任務
+  - 安裝 `npm install`
+  - 建立 sqlite & cache files
+  - Preload DB seeds
+  - 執行驗證與測試，確保安裝與環境設定沒有問題
+
+### 4/12
+
+- 把一些我不需要的內容移除
+  - `content/blog` 下複製一個原本的文章來當範本，建立這篇文章
+  - 刪除其他的部落格文章
+  - 移除部分 Talks 的內容
+- Rename
+  - 把他的名字換成我的名字
+  - 更改網站 domain
+- 遇到的問題
+  - 刪除文章後，Cache 似乎不會刪除
+  - 他疑似有做 Browser cache，有時候刷新之後又出現舊的內容
+  - 更改分類和關鍵字，他好像也不會自動更新，或是需要等
+- 解法
+  - 後來都是手動去把 sqlite & cache 清除再重新跑一次 setup 來解決
