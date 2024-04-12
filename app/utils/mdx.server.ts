@@ -256,7 +256,7 @@ async function compileMdxCached({
             : undefined,
           ...compiledPage,
           slug,
-          editLink: `https://github.com/kentcdodds/kentcdodds.com/edit/main/${entry}`,
+          editLink: `https://github.com/kentcdodds/koshuang.com/edit/main/${entry}`,
         }
       } else {
         return null

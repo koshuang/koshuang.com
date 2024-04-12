@@ -62,7 +62,7 @@ async function sendMagicLinkEmail({
   user?: User | null
   domainUrl: string
 }) {
-  const sender = `"Kent C. Dodds Team" <team+kcd@kentcdodds.com>`
+  const sender = `"Kos Huang Team" <team+kcd@kentcdodds.com>`
   const {hostname} = new URL(domainUrl)
   const userExists = Boolean(user)
 
@@ -140,9 +140,9 @@ P.S. If you did not request this email, you can safely ignore it.
         <a href="${domainUrl}/login" style="margin-top: .4rem; display: block">Click here to request a new link.</a>
         <div style="color: grey">Be certain the link opens in the same browser you requested it from.</div>
       </div>
-        
+
       <hr style="width: 20%; height: 0px; border: 1px solid lightgrey; margin-top: 2rem; margin-bottom: 2rem">
-        
+
       <div style="text-align: center; color: grey; font-size: .8rem; line-height: 1.2rem">
         You received this because your email address was used to sign up for an account on
         <a href="${domainUrl}" style="color: grey">${hostname}</a>. If you didn't sign up for an account,

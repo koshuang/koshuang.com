@@ -363,7 +363,7 @@ function Navbar() {
             to="/"
             className="text-primary underlined block whitespace-nowrap text-2xl font-medium transition focus:outline-none"
           >
-            <h1>Kent C. Dodds</h1>
+            <h1>Kos Huang</h1>
           </Link>
         </div>
 

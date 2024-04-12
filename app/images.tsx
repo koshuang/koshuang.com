@@ -61,12 +61,12 @@ const images = createImages({
   },
   kentTransparentProfile: {
     id: 'kent/profile-transparent',
-    alt: 'Kent C. Dodds',
+    alt: 'Kos Huang',
     style: square,
   },
   kentProfile: {
     id: 'kent/profile',
-    alt: 'Kent C. Dodds',
+    alt: 'Kos Huang',
     style: square,
   },
   kentSnowSports: {
@@ -156,7 +156,7 @@ const images = createImages({
   },
   getToKnowKentVideoThumbnail: {
     id: 'kent/video-stills/get-to-know-kent-video-thumbnail',
-    alt: 'Kent in the air on a snowboard with the words "Get to know Kent C. Dodds"',
+    alt: 'Kent in the air on a snowboard with the words "Get to know Kos Huang"',
     style: {aspectRatio: '16/9'},
   },
   kodyProfileYellow: {

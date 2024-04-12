@@ -1,5 +1,5 @@
 {
-  "name": "kentcdodds.com",
+  "name": "koshuang.com",
   "version": "1.0.0",
   "engines": {
     "node": "18",
@@ -8,19 +8,19 @@
   "imports": {
     "#*": "./*"
   },
-  "description": "A remix version of kentcdodds.com",
+  "description": "A remix version of koshuang.com",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/kentcdodds.com.git"
+    "url": "git+https://github.com/kentcdodds/koshuang.com.git"
   },
   "keywords": [],
-  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
+  "author": "Kos Huang <me@koshuang.com> (https://koshuang.com/)",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/kentcdodds/kentcdodds.com/issues"
+    "url": "https://github.com/kentcdodds/koshuang.com/issues"
   },
-  "homepage": "https://github.com/kentcdodds/kentcdodds.com#readme",
+  "homepage": "https://github.com/kentcdodds/koshuang.com#readme",
   "type": "module",
   "scripts": {
     "postinstall": "patch-package --patch-dir other/patches",

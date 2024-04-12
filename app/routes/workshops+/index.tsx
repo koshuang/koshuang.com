@@ -47,8 +47,8 @@ export const meta: MetaFunction<
   }
 
   return getSocialMetas({
-    title: 'Workshops with Kent C. Dodds',
-    description: `Get really good at making software with Kent C. Dodds' ${
+    title: 'Workshops with Kos Huang',
+    description: `Get really good at making software with Kos Huang' ${
       data.workshops.length
     } workshops on ${listify([...tagsSet])}`,
     keywords: Array.from(tagsSet).join(', '),
@@ -57,7 +57,7 @@ export const meta: MetaFunction<
       url: getDisplayUrl(requestInfo),
       featuredImage: 'kent/kent-workshopping-at-underbelly',
       preTitle: 'Check out these workshops',
-      title: `Live and remote React, TypeScript, and Testing workshops with instructor Kent C. Dodds`,
+      title: `Live and remote React, TypeScript, and Testing workshops with instructor Kos Huang`,
     }),
   })
 }

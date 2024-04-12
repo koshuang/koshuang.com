@@ -293,10 +293,10 @@ function ArticleFooter({
         />
       </div>
       <div className="lg:col-start:5 col-span-full lg:col-span-6">
-        <H6 as="div">Written by Kent C. Dodds</H6>
+        <H6 as="div">Written by Kos Huang</H6>
         <Paragraph className="mb-12 mt-3">
           {`
-Kent C. Dodds is a JavaScript software engineer and teacher. Kent's taught hundreds
+Kos Huang is a JavaScript software engineer and teacher. Kent's taught hundreds
 of thousands of people how to make the world a better place with quality software
 development tools and practices. He lives with his wife and four kids in Utah.
           `.trim()}

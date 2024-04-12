@@ -111,7 +111,7 @@ export const action: ActionFunction = async ({request, params}) => {
       try {
         void sendEmail({
           to: call.user.email,
-          from: `"Kent C. Dodds" <hello+calls@kentcdodds.com>`,
+          from: `"Kos Huang" <hello+calls@kentcdodds.com>`,
           subject: `Your "Call Kent" episode has been published`,
           text: `
 Hi ${call.user.firstName},

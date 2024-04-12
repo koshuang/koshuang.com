@@ -218,7 +218,7 @@ export default function WorkshopScreen() {
           <BackLink to="/workshops" className="mb-10 lg:mb-24">
             Back to overview
           </BackLink>
-          <H2 className="mb-2">{`Join Kent C. Dodds for "${workshop.title}"`}</H2>
+          <H2 className="mb-2">{`Join Kos Huang for "${workshop.title}"`}</H2>
 
           <H6 as="p" className="lg:mb-22 mb-16">
             {workshopEvents.length
@@ -376,7 +376,7 @@ export default function WorkshopScreen() {
           <Spacer size="2xs" />
         </div>
         <div className="col-span-full mt-6">
-          <H6 className="mb-4">What to expect from a Kent C. Dodds workshop</H6>
+          <H6 className="mb-4">What to expect from a Kos Huang workshop</H6>
           <div className="flex flex-col gap-2">
             <Paragraph>
               {`

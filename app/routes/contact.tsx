@@ -68,7 +68,7 @@ export const action = async ({request}: DataFunctionArgs) => {
 
       await sendEmail({
         from: sender,
-        to: `"Kent C. Dodds" <me@kentcdodds.com>`,
+        to: `"Kos Huang" <me@kentcdodds.com>`,
         subject,
         text: `${body}\n\n${noSpamMessage}`,
       })
@@ -88,8 +88,8 @@ export const meta: MetaFunction<{}, {root: RootLoaderType}> = ({matches}) => {
   // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
   const requestInfo = matches.find(m => m.id === 'root')?.data.requestInfo
   return getSocialMetas({
-    title: 'Contact Kent C. Dodds',
-    description: 'Send Kent C. Dodds a personal email.',
+    title: 'Contact Kos Huang',
+    description: 'Send Kos Huang a personal email.',
     url: getUrl(requestInfo),
     image: getGenericSocialImage({
       url: getDisplayUrl(requestInfo),

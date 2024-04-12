@@ -117,12 +117,12 @@ ${guest.links.length ? `* ${guest.links.join('\n* ')}` : ''}
           })
           .join('\n\n### ')}
 
-### Host: Kent C. Dodds
+### Host: Kos Huang
 
 * Website: [kentcdodds.com](https://kentcdodds.com/)
 * Twitter: [@kentcdodds](https://twitter.com/kentcdodds)
 * GitHub: [@kentcdodds](https://github.com/kentcdodds)
-* Youtube: [Kent C. Dodds](https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw)
+* Youtube: [Kos Huang](https://www.youtube.com/channel/UCz-BYvuntVRt_VpfR6FKXJw)
         `.trim(),
         enclosure_url:
           'https://cdn.simplecast.com/audio/f1ae04/f1ae0415-6876-4fad-aff9-96d8c26f3dbb/69813706-347b-4fd4-933f-8ab4dcf5a891/tanner-linsley_tc.mp3',

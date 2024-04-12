@@ -12,6 +12,6 @@ test('App loads and nav works', async ({page}) => {
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*blog/)
   await expect(
-    page.getByRole('heading', {level: 1, name: 'Kent C. Dodds'}),
+    page.getByRole('heading', {level: 1, name: 'Kos Huang'}),
   ).toBeVisible()
 })

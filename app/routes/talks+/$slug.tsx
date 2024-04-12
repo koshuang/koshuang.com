@@ -27,7 +27,7 @@ export const meta: MetaFunction<
   const talk = params.slug ? talks.find(t => t.slug === params.slug) : null
   const title = talk ? talk.title : '404: Talk not found'
   return getSocialMetas({
-    title: talk ? `${title} by Kent C. Dodds` : title,
+    title: talk ? `${title} by Kos Huang` : title,
     description: talk ? talk.description : '404: Talk not found',
     url: getUrl(requestInfo),
     image: getSocialImageWithPreTitle({

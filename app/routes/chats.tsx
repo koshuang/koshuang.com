@@ -87,7 +87,7 @@ export const meta: MetaFunction<typeof loader, {root: RootLoaderType}> = ({
   const requestInfo = matches.find(m => m.id === 'root')?.data.requestInfo
 
   return getSocialMetas({
-    title: 'Chats with Kent C. Dodds Podcast',
+    title: 'Chats with Kos Huang Podcast',
     description: `Become a better person with ${episodeCount} interesting and actionable conversations with interesting people.`,
     keywords: `chats with kent, kent c. dodds`,
     url: getUrl(requestInfo),
@@ -134,7 +134,7 @@ function PodcastHome() {
   return (
     <>
       <HeroSection
-        title="Listen to chats with Kent C. Dodds here."
+        title="Listen to chats with Kos Huang here."
         subtitle="Find all episodes of my podcast below."
         imageBuilder={images.kayak}
         imageSize="large"
@@ -289,7 +289,7 @@ function PodcastHome() {
               as="h2"
               className="col-span-full mb-10 flex flex-col lg:mb-0 lg:flex-row"
             >
-              <span>Chats with Kent C. Dodds</span>
+              <span>Chats with Kos Huang</span>
               &nbsp;
               <span>{`Season ${currentSeason.seasonNumber} — ${currentSeason.episodes.length} episodes`}</span>
             </H6>

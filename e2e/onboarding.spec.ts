@@ -32,7 +32,7 @@ test('A new user can create an account', async ({page}) => {
   const email = await readEmail(emailAddress)
   invariant(email, 'Email not found')
   expect(email.to).toBe(emailAddress)
-  expect(email.from).toMatch(/team\+kcd@kentcdodds.com/)
+  expect(email.from).toMatch(/team\+kcd@koshuang.com/)
   expect(email.subject).toMatch(/magic/i)
   const magicLink = extractUrl(email.text)
   invariant(magicLink, 'Magic Link not found')

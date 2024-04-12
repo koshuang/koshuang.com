@@ -172,7 +172,7 @@ export default function CallHomeScreen() {
   return (
     <>
       <HeroSection
-        title="Calls with Kent C. Dodds."
+        title="Calls with Kos Huang."
         subtitle="You call, I'll answer."
         imageBuilder={images.microphone}
         arrowUrl="#episodes"
@@ -296,7 +296,7 @@ export default function CallHomeScreen() {
               as="h2"
               className="col-span-full mb-10 flex flex-col lg:mb-0 lg:flex-row"
             >
-              <span>Calls with Kent C. Dodds</span>
+              <span>Calls with Kos Huang</span>
               &nbsp;
               <span>{`Season ${currentSeason.seasonNumber} — ${currentSeason.episodes.length} episodes`}</span>
             </H6>

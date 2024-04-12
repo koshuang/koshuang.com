@@ -79,9 +79,9 @@ export const handle: KCDHandle & {id: string} = {
 
 export const meta: MetaFunction<typeof loader> = ({data}) => {
   const requestInfo = data?.requestInfo
-  const title = 'Kent C. Dodds'
+  const title = 'Kos Huang'
   const description =
-    'Come check out how Kent C. Dodds can help you level up your career as a software engineer.'
+    'Come check out how Kos Huang can help you level up your career as a software engineer.'
   return [
     {viewport: 'width=device-width,initial-scale=1,viewport-fit=cover'},
     {
@@ -96,7 +96,7 @@ export const meta: MetaFunction<typeof loader> = ({data}) => {
         url: getDisplayUrl(requestInfo),
         words:
           'Helping people make the world a better place through quality software.',
-        featuredImage: 'kentcdodds.com/illustrations/kody-flying_blue',
+        featuredImage: 'koshuang.com/illustrations/kody-flying_blue',
       }),
       title,
       description,
@@ -678,7 +678,7 @@ export function ErrorBoundary() {
           <ErrorPage
             heroProps={{
               title: "404 - Oh no, you found a page that's missing stuff.",
-              subtitle: `"${location.pathname}" is not a page on kentcdodds.com. So sorry.`,
+              subtitle: `"${location.pathname}" is not a page on koshuang.com. So sorry.`,
               image: (
                 <MissingSomething className="rounded-lg" aspectRatio="3:4" />
               ),
@@ -750,7 +750,7 @@ function kcdLiveReloadConnect(config?: {onOpen: () => void}) {
   ws.onmessage = message => {
     const event = JSON.parse(message.data)
     if (
-      event.type === 'kentcdodds.com:file-change' &&
+      event.type === 'koshuang.com:file-change' &&
       event.data.relativePath === location.pathname
     ) {
       window.location.reload()
@@ -764,7 +764,7 @@ function kcdLiveReloadConnect(config?: {onOpen: () => void}) {
   ws.onclose = event => {
     if (event.code === 1006) {
       console.log(
-        'kentcdodds.com dev server web socket closed. Reconnecting...',
+        'koshuang.com dev server web socket closed. Reconnecting...',
       )
       setTimeout(
         () =>
@@ -776,7 +776,7 @@ function kcdLiveReloadConnect(config?: {onOpen: () => void}) {
     }
   }
   ws.onerror = error => {
-    console.log('kentcdodds.com dev server web socket error:')
+    console.log('koshuang.com dev server web socket error:')
     console.error(error)
   }
 }

@@ -33,7 +33,7 @@ function IntroductionSection() {
             <LiteYouTubeEmbed
               id="a7VxBwLGcDE"
               announce="Watch"
-              title="Get to know Kent C. Dodds"
+              title="Get to know Kos Huang"
               // We don't show the poster, so we use the lowest-res version
               poster="default"
               params={new URLSearchParams({
@@ -53,7 +53,7 @@ function IntroductionSection() {
       </div>
       <div className="col-span-full mt-12 lg:col-span-6 lg:col-start-6 lg:mt-0">
         <H2 id="intro">
-          {`Hi, I'm Kent C. Dodds. I help people make the world better through quality software.`}
+          {`Hi, I'm Kos Huang. I help people make the world better through quality software.`}
         </H2>
         <H3 variant="secondary" as="p" className="mt-12">
           {`

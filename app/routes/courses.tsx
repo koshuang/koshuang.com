@@ -48,13 +48,13 @@ export const meta: MetaFunction<typeof loader, {root: RootLoaderType}> = ({
   // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
   const requestInfo = matches.find(m => m.id === 'root')?.data.requestInfo
   return getSocialMetas({
-    title: 'Courses by Kent C. Dodds',
-    description: 'Get really good at making software with Kent C. Dodds',
+    title: 'Courses by Kos Huang',
+    description: 'Get really good at making software with Kos Huang',
     url: getUrl(requestInfo),
     image: getGenericSocialImage({
       url: getDisplayUrl(requestInfo),
       featuredImage: images.onewheel.id,
-      words: `Level up your skills with self-paced courses from Kent C. Dodds`,
+      words: `Level up your skills with self-paced courses from Kos Huang`,
     }),
   })
 }

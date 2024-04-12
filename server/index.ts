@@ -55,7 +55,7 @@ const getBuild = async (): Promise<ServerBuild> => {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const here = (...d: Array<string>) => path.join(__dirname, ...d)
-const primaryHost = 'kentcdodds.com'
+const primaryHost = 'koshuang.com'
 const getHost = (req: {get: (key: string) => string | undefined}) =>
   req.get('X-Forwarded-Host') ?? req.get('host') ?? ''
 

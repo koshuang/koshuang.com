@@ -43,8 +43,8 @@ that it is a translation of the original post and link back to the original
 post. For example:
 
 > This is a translation of the original post
-> [Some great post](https://kentcdodds.com/blog/some-great-post) by
-> [Kent C. Dodds](https://kentcdodds.com/).
+> [Some great post](https://koshuang.com/blog/some-great-post) by
+> [Kos Huang](https://koshuang.com/).
 
 If you notice an error in an existing translation or if the link to the
 translation is not working, please try to reach out to the translator directly
@@ -75,7 +75,7 @@ instructions:
 > requests from branches on your fork. To do this, run:
 >
 > ```
-> git remote add upstream https://github.com/kentcdodds/kentcdodds.com.git
+> git remote add upstream https://github.com/kentcdodds/koshuang.com.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/main main
 > ```
@@ -90,7 +90,7 @@ If the setup script doesn't work, you can try to run the commands manually:
 
 ```sh
 git clone <your-fork>
-cd ./kentcdodds.com
+cd ./koshuang.com
 
 # copy the .env.example to .env
 #   everything's mocked out during development so you shouldn't need to
@@ -371,5 +371,5 @@ requests! Thanks!
 
 <!-- prettier-ignore-start -->
 [egghead]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/kentcdodds/kentcdodds.com/issues
+[issues]: https://github.com/kentcdodds/koshuang.com/issues
 <!-- prettier-ignore-end -->

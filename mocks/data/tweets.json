@@ -159,7 +159,7 @@
     "text": "🚨 We've got an IST-friendly KCD Learning club looking for new members \"To learn React the epic way!\"\n\nGo through https://t.co/VFTzpCWpTr together with others! Learn how to join here: https://t.co/boWSztgAKM https://t.co/nyggsvsjHz",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -251,7 +251,7 @@
     "text": "Took a different approach that allowed me to add data attributes to the lines nodes specifically.\n\nWorks great! https://t.co/2W86iwjs4L",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -374,7 +374,7 @@
       "text": "Please disregard. This is definitely impossible. I'll need to change my approach...",
       "user": {
         "id_str": "389681470",
-        "name": "Kent C. Dodds 🌌",
+        "name": "Kos Huang 🌌",
         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
         "screen_name": "kentcdodds",
         "verified": false,
@@ -506,7 +506,7 @@
     "text": "This tweet has three images...\n\nI'm testing something and couldn't easily find a tweet with three photos, so here you go. https://t.co/okUhem8zC7",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -678,7 +678,7 @@
     "text": "I knew we'd make it. Good job everyone 👏👏👏 https://t.co/zBfFwCVjjx",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -856,7 +856,7 @@
     "text": "Discord threads: I'm a fan\n\nWell done @discord developers 👏",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -893,7 +893,7 @@
     "text": "It's working now and I don't know why 🤷‍♂️ 🙃",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -925,7 +925,7 @@
       "text": "Has anyone ever had trouble embedding tweets? I've been debugging twitter's widgets code and it seems to fire off a promise to get \"settings\" which never resolves.",
       "user": {
         "id_str": "389681470",
-        "name": "Kent C. Dodds 🌌",
+        "name": "Kos Huang 🌌",
         "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
         "screen_name": "kentcdodds",
         "verified": false,
@@ -959,7 +959,7 @@
     "text": "Same",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -1027,7 +1027,7 @@
     "text": "Let's say a site supports both dark and light mode. Which should it use by default for your first visit?",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -1113,7 +1113,7 @@
     "text": "Today's the last day of that https://t.co/LoU6y2wvVV is 25% off.\n\nIt'd be awesome to become the team React expert. But what's even better than one React expert on the team, is an entire team of React experts! 💪\n\nTo get that, send your boss this: https://t.co/e7c3mMKkmQ 🚀",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -1357,7 +1357,7 @@
     "text": "When I do a big refactor to a data structure I like to start by changing the type definitions. Then I fix the red squiggles until they're gone.\n\nThe joy of things *just working* when I finally run the code will never get old.",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -1397,7 +1397,7 @@
     "text": "One of the things I loved most when starting to learn React was that I felt myself getting better at JavaScript.\n\n@remix_run is making me better at the web platform. Not just the DOM, but the browser-to-server-to-browser communication too.",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,
@@ -1438,7 +1438,7 @@
     "text": "Prisma is amazing https://t.co/gmCkT93byp",
     "user": {
       "id_str": "389681470",
-      "name": "Kent C. Dodds 🌌",
+      "name": "Kos Huang 🌌",
       "profile_image_url_https": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
       "screen_name": "kentcdodds",
       "verified": false,

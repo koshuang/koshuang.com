@@ -67,7 +67,7 @@ export const links: LinksFunction = () => {
     {
       rel: 'alternate',
       type: 'application/rss+xml',
-      title: 'Kent C. Dodds Blog',
+      title: 'Kos Huang Blog',
       href: '/blog/rss.xml',
     },
   ]
@@ -133,12 +133,12 @@ export const meta: MetaFunction<typeof loader, {root: RootLoaderType}> = ({
   const requestInfo = matches.find(m => m.id === 'root')?.data.requestInfo
   const {totalBlogReaders, posts} = data as SerializeFrom<typeof loader>
   return getSocialMetas({
-    title: 'The Kent C. Dodds Blog',
+    title: 'The Kos Huang Blog',
     description: `Join ${totalBlogReaders} people who have read Kent's ${formatNumber(
       posts.length,
     )} articles on JavaScript, TypeScript, React, Testing, Career, and more.`,
     keywords:
-      'JavaScript, TypeScript, React, Testing, Career, Software Development, Kent C. Dodds Blog',
+      'JavaScript, TypeScript, React, Testing, Career, Software Development, Kos Huang Blog',
     url: getUrl(requestInfo),
     image: getSocialImageWithPreTitle({
       url: getDisplayUrl(requestInfo),
