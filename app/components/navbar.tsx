@@ -27,13 +27,13 @@ import {TeamCircle} from './team-circle.tsx'
 import {useRequestInfo} from '~/utils/request-info.ts'
 
 const LINKS = [
-  {name: 'Blog', to: '/blog'},
-  {name: 'Courses', to: '/courses'},
-  {name: 'Discord', to: '/discord'},
-  {name: 'Chats', to: '/chats/05'},
-  {name: 'Calls', to: '/calls/04'},
-  {name: 'Workshops', to: '/workshops'},
-  {name: 'About', to: '/about'},
+  {name: '這裡開始', to: '/about'},
+  {name: '部落格', to: '/blog'},
+  // {name: 'Courses', to: '/courses'},
+  // {name: 'Discord', to: '/discord'},
+  // {name: 'Chats', to: '/chats/05'},
+  // {name: 'Calls', to: '/calls/04'},
+  // {name: 'Workshops', to: '/workshops'},
 ]
 
 const MOBILE_LINKS = [{name: 'Home', to: '/'}, ...LINKS]

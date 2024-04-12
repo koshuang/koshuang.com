@@ -2,7 +2,7 @@ import {getGenericSocialImage, images} from '~/images.tsx'
 
 export function getSocialMetas({
   url,
-  title = 'Helping people make the world a better place through quality software',
+  title = '軟體工程師的成長夥伴：軟體教練/導師課，提供客製化指導、豐富學習資源！',
   description = 'Make the world better with software',
   image = getGenericSocialImage({
     url,

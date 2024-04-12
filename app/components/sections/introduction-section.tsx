@@ -44,31 +44,22 @@ function IntroductionSection() {
             />
           }
         />
-        <p className="text-secondary text-xl">{`Introduction video (2:13)`}</p>
-        <Link
-          prefetch="intent"
-          className="underlined"
-          to="/about?autoplay"
-        >{`or, watch the full video here (8:05)`}</Link>
       </div>
       <div className="col-span-full mt-12 lg:col-span-6 lg:col-start-6 lg:mt-0">
         <H2 id="intro">
-          {`Hi, I'm Kos Huang. I help people make the world better through quality software.`}
+          {`我是 Kos，我喜歡幫助別人成為更好的軟體工程師`}
         </H2>
         <H3 variant="secondary" as="p" className="mt-12">
-          {`
-            I'm also a big extreme sports enthusiast. When I'm not hanging out
-            with my family or at the computer you can find me cruising around on
-            my onewheel or hitting the slopes on my snowboard when it's cold.
-          `}
-        </H3>
+          <p>過去兩三年，我每週六都會花兩小時，擔任軟體教練或導師「免費」帶一些初學者學習。</p>
+          <p>我希望可以持續幫助別人，但為了品質，決定改成付費的教練導師課程。</p>
+      </H3>
         <ArrowLink
           to="/about"
           direction="right"
           className="mt-20"
           prefetch="intent"
         >
-          Learn more about me
+          關於我更多的資訊
         </ArrowLink>
       </div>
     </Grid>

@@ -93,18 +93,18 @@ export default function IndexRoute() {
   return (
     <div>
       <HeroSection
-        title="Helping people make the world a better place through quality software."
+        title={<>軟體工程師的成長夥伴：<br/>軟體教練/導師課，提供客製化指導、豐富學習資源！</>}
         imageBuilder={kodyFlying}
         imageSize="giant"
         arrowUrl="#intro"
-        arrowLabel="Learn more about Kent"
+        arrowLabel="更多 Kos 的介紹"
         action={
           <div className="mr-auto flex flex-col gap-4">
             <ButtonLink to="/blog" variant="primary" prefetch="intent">
-              Read the blog
+              閱讀部落格
             </ButtonLink>
             <ButtonLink to="/courses" variant="secondary" prefetch="intent">
-              Take a course
+              我在尋找教練與導師
             </ButtonLink>
           </div>
         }

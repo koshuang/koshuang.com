@@ -95,7 +95,7 @@ export const meta: MetaFunction<typeof loader> = ({data}) => {
       image: getGenericSocialImage({
         url: getDisplayUrl(requestInfo),
         words:
-          'Helping people make the world a better place through quality software.',
+          '軟體工程師的成長夥伴：軟體教練/導師課，提供客製化指導、豐富學習資源！',
         featuredImage: 'koshuang.com/illustrations/kody-flying_blue',
       }),
       title,
