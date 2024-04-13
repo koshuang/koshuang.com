@@ -80,3 +80,32 @@ bannerCredit:
 未來想法
 
 - 下次預計先把目前部分的內容部署到 Cloud，這樣方便讓大家看到我階段性的成果。
+
+## 4/14
+
+- 調整首頁
+  - 持續進行中文化，關於部落格說明以及我想提供的服務，調整文案。
+  - 移除還無法提供的服務
+- 部署目前的內容到 koshuang.com
+  - 為了節省成本，先找一台在 AWS 原本已經有 Host 的機器
+  - 安裝 nvm，並安裝 Node.js 18
+  - 在 Global 安裝 pm2: `npm install -g pm2`
+  - 安裝專案
+    - `npm run setup`
+    - `npm build`
+      - 遇到的問題
+        - better-sqlite3 一直 build 失敗
+          - 系統需要安裝 sqlite3 與 gcc,
+            - `apt-get install build-essential sqlite3 gcc`
+    - 後來發現他的 Dockerfile 有很多東西，感覺直接用 Docker 執行可能會比較好。
+      - 遇到的問題
+        - server 上 docker build 一直在 npm install 時失敗，之後有時間再戰
+
+反饋
+
+- 為了加速每次改文案，因次我盡量使用 ChatGPT 產生內容，或是我在 Threads 的內容。
+- 先求有，再求好。
+  - 以 DevOps 的部署左移概念，應該要盡量在前期就讓網站部署上去，即使只有空的內容。
+  - 為達成上面目的，主要目標還是希望盡快的中文化，只留下我自己的資訊（避免抄襲或是侵犯到 Kent 的智慧財產權），讓網站先上線。
+- 在 Server 上遇到的問題
+  - 其實 Kent 有提供 Dockerfile，只是我在安裝遇到問題時，應該要直接去參考 Dockerfile，至少要安裝裡面全部的套件，應該可以縮短更多處理錯誤的時間。

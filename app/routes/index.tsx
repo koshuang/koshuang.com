@@ -64,11 +64,11 @@ export const loader: LoaderFunction = async ({request}) => {
     blogPostCount: formatNumber(posts.length),
     totalBlogReaders:
       totalBlogReaders < 10_000
-        ? 'hundreds of thousands of'
+        ? '很多'
         : formatNumber(totalBlogReaders),
     totalBlogReads:
       totalBlogReads < 100_000
-        ? 'hundreds of thousands of'
+        ? '很多'
         : formatNumber(totalBlogReads),
     currentBlogLeaderTeam: getRankingLeader(blogRankings)?.team,
     kodyTeam: getOptionalTeam(
@@ -122,15 +122,9 @@ export default function IndexRoute() {
         <Spacer size="base" />
         <BlogSection
           articles={data.blogRecommendations}
-          title="Blog recommendations"
-          description="Prepared especially for you."
+          title="部落格推薦"
+          description="特別為你而準備"
         />
-        <Spacer size="lg" />
-        <CourseSection />
-        <Spacer size="lg" />
-        <DiscordSection />
-        <Spacer size="lg" />
-        <AboutSection />
       </main>
     </div>
   )
