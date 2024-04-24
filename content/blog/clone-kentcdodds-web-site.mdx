@@ -109,3 +109,17 @@ bannerCredit:
   - 為達成上面目的，主要目標還是希望盡快的中文化，只留下我自己的資訊（避免抄襲或是侵犯到 Kent 的智慧財產權），讓網站先上線。
 - 在 Server 上遇到的問題
   - 其實 Kent 有提供 Dockerfile，只是我在安裝遇到問題時，應該要直接去參考 Dockerfile，至少要安裝裡面全部的套件，應該可以縮短更多處理錯誤的時間。
+
+## 4/21
+
+- 看了他的 Dockerfile 之後，看到他用了 LiteFS ，裡面會用到 consul，於是我先想辦法去把 consul 裝起來
+- 補了 docker-compose.yml ，拆出兩個 Services： web & consul
+- 後來發現 Kent 應該是把整個 repo 部署到 fly.io，而 LiteFS 正是 fly.io 開源的，真相水落石出了！
+
+遇到問題
+
+- 但執行的時候，還是會遇到 ""mount helper error: fusermount3: fuse device not found, try 'modprobe fuse' first"
+
+TODO:
+
+- 研究 LiteFS，想辦法在 Server 把環境架起來，否則就得跟 Kent 一樣，老實的把網站 host 到 fly.io 上了。
