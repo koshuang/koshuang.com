@@ -54,13 +54,16 @@ RUN npm run build
 FROM base
 
 ENV FLY="true"
-ENV LITEFS_DIR="/litefs"
+# ENV LITEFS_DIR="/litefs"
+ENV LITEFS_DIR="/data/litefs-disabled"
 
 ENV DATABASE_FILENAME="sqlite.db"
 ENV DATABASE_PATH="$LITEFS_DIR/$DATABASE_FILENAME"
 ENV DATABASE_URL="file:$DATABASE_PATH"
 ENV INTERNAL_PORT="8080"
-ENV PORT="8081"
+# ENV PORT="8081"
+ENV PORT="8080"
+
 ENV NODE_ENV="production"
 # For WAL support: https://github.com/prisma/prisma-engines/issues/4675#issuecomment-1914383246
 ENV PRISMA_SCHEMA_DISABLE_ADVISORY_LOCK = "1"
@@ -83,8 +86,9 @@ COPY --from=build /app/server-build /app/server-build
 ADD . .
 
 # prepare for litefs
-COPY --from=flyio/litefs:0.5.11 /usr/local/bin/litefs /usr/local/bin/litefs
-ADD other/litefs.yml /etc/litefs.yml
-RUN mkdir -p /data ${LITEFS_DIR}
+# COPY --from=flyio/litefs:0.5.11 /usr/local/bin/litefs /usr/local/bin/litefs
+# ADD other/litefs.yml /etc/litefs.yml
+# RUN mkdir -p /data ${LITEFS_DIR}
 
-CMD ["litefs", "mount"]
+# CMD ["litefs", "mount"]
+CMD ["npm", "start"]
