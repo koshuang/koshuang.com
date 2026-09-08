@@ -1,0 +1,32 @@
+---
+import '../styles/global.css';
+const { title = 'Kos Huang', description = 'CTO, builder, and lifelong learner. Writing about AI, engineering, leadership, and building things.' } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+  </head>
+  <body>
+    <main class="wrap">
+      <nav class="nav">
+        <a href="/">Kos Huang</a>
+        <a href="/blog">Blog</a>
+        <a href="/projects">Projects</a>
+        <a href="/about">About</a>
+      </nav>
+      <slot />
+      <footer class="footer">© {new Date().getFullYear()} Kos Huang</footer>
+    </main>
+  </body>
+</html>
