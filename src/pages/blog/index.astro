@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort((a,b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+<Layout title="Blog · Kos Huang" description="Kos Huang 的文章：AI、工程、領導與實作。">
+  <div class="prose"><h1>Blog</h1><p>把正在學、正在做、值得留下的東西寫下來。</p></div>
+  <ul class="list">
+    {posts.map(post => <li><a href={`/blog/${post.id}/`}>{post.data.title}</a><span class="meta">{post.data.pubDate.toLocaleDateString('zh-TW')} · {post.data.description}</span></li>)}
+  </ul>
+</Layout>

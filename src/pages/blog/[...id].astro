@@ -1,0 +1,17 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map(post => ({ params: { id: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+<Layout title={`${post.data.title} · Kos Huang`} description={post.data.description}>
+  <article class="prose">
+    <div class="meta">{post.data.pubDate.toLocaleDateString('zh-TW')}</div>
+    <h1>{post.data.title}</h1>
+    <Content />
+  </article>
+</Layout>

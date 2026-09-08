@@ -1,15 +1,24 @@
-# Kent C. Dodds' site (rewritten with Remix)
+# koshuang.com
 
-[![Build Status][build-badge]][build]
-[![GPL 3.0 License][license-badge]][license]
+Kos Huang's personal website and blog.
 
-## Contributing
+## Goal
 
-Read CONTRIBUTING.md
+Ship useful writing first. Keep the publishing stack boring, fast, and easy to maintain.
 
-<!-- prettier-ignore-start -->
-[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/kentcdodds.com/pipeline?logo=github&style=flat-square
-[build]: https://github.com/kentcdodds/kentcdodds.com/actions?query=workflow%3Apipeline
-[license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
-[license]: https://github.com/kentcdodds/kentcdodds.com/blob/main/LICENSE.md
-<!-- prettier-ignore-end -->
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+The site is static and deploys from GitHub Actions.
+
+The previous Kent C. Dodds / Remix-based implementation is preserved on the `legacy-kentcdodds-remix` branch.
